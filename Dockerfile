@@ -10,3 +10,6 @@ RUN apk add --update --no-cache python \
     g++ \
  && rm -rf /var/cache/apk/* \
  && pip install awscli
+ 
+RUN npm install socket.io \
+ && mv node_modules /prebuilt-modules
