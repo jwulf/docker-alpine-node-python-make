@@ -11,5 +11,5 @@ RUN apk add --update --no-cache python \
  && rm -rf /var/cache/apk/* \
  && pip install awscli
  
-RUN npm install socket.io \
+RUN npm install socket.io bufferutil node-sass utf-8-validate \
  && mv node_modules /prebuilt-modules
