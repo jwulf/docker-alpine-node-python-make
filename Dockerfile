@@ -1,5 +1,5 @@
 
-FROM mhart/alpine-node
+FROM mhart/alpine-node:8.5
 
 RUN apk add --update --no-cache python \
     python-dev \
