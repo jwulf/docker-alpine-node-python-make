@@ -8,6 +8,7 @@ RUN apk add --update --no-cache python \
     make \
     gcc \
     g++ \
+    git \
  && rm -rf /var/cache/apk/* \
  && pip install awscli
  
